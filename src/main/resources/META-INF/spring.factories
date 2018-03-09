@@ -1,0 +1,5 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.jiuxian.boot.mossrose.autoconfigure.MossroseAutoConfiguration
+
+org.springframework.context.ApplicationListener=\
+com.jiuxian.boot.mossrose.autoconfigure.MossroseApplicationListener
