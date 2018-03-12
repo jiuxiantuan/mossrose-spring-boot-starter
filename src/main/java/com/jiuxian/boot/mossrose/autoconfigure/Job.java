@@ -20,4 +20,6 @@ public @interface Job {
 
     String description() default "";
 
+    int threads() default 0;
+
 }

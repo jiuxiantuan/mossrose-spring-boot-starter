@@ -64,6 +64,7 @@ public class MossroseAutoConfiguration {
             job.setGroup(jobAnnotation.group());
             job.setCron(jobAnnotation.cron());
             job.setDescription(jobAnnotation.description());
+            job.setThreads(jobAnnotation.threads());
 
             jobs.add(job);
         }

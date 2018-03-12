@@ -6,8 +6,19 @@
 
     <groupId>com.jiuxian</groupId>
     <artifactId>mossrose-spring-boot-starter</artifactId>
-    <version>1.0.0-RELEASE</version>
+    <version>1.0.1-RELEASE</version>
     <packaging>jar</packaging>
+    <name>mossrose-spring-boot-starter</name>
+    <description>Spring boot starter for mossrose</description>
+    <url>https://github.com/jiuxiantuan/mossrose-spring-boot-starter</url>
+    <licenses>
+        <license>
+            <name>Apache 2</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+            <comments>A business-friendly OSS license</comments>
+        </license>
+    </licenses>
 
     <dependencies>
         <dependency>
@@ -28,18 +39,9 @@
         <dependency>
             <groupId>com.jiuxian</groupId>
             <artifactId>mossrose</artifactId>
+            <version>2.3.1-RELEASE</version>
         </dependency>
     </dependencies>
-
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>com.jiuxian</groupId>
-                <artifactId>mossrose</artifactId>
-                <version>2.3.0-RELEASE</version>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
 
     <build>
         <plugins>
