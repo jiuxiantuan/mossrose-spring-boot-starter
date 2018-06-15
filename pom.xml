@@ -6,7 +6,7 @@
 
     <groupId>com.jiuxian</groupId>
     <artifactId>mossrose-spring-boot-starter</artifactId>
-    <version>1.2.0-RELEASE</version>
+    <version>1.2.1-RELEASE</version>
     <packaging>jar</packaging>
     <name>mossrose-spring-boot-starter</name>
     <description>Spring boot starter for mossrose</description>
@@ -22,7 +22,7 @@
 
     <properties>
         <spring-boot.version>2.0.1.RELEASE</spring-boot.version>
-        <mossrose.version>2.4.3-RELEASE</mossrose.version>
+        <mossrose.version>2.4.4-RELEASE</mossrose.version>
     </properties>
 
     <dependencies>

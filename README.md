@@ -36,7 +36,7 @@
 <dependency>
     <groupId>com.jiuxian</groupId>
     <artifactId>mossrose-spring-boot-starter</artifactId>
-    <version>1.2.0-RELEASE</version>
+    <version>1.2.1-RELEASE</version>
 </dependency>
 ```
 
